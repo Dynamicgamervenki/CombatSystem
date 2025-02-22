@@ -1,0 +1,50 @@
+# Ignore all binaries and intermediate files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Ignore Unreal's project files that can be generated
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.xcodeproj
+*.xcworkspace
+
+# Ignore auto-generated configs
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.o
+*.obj
+*.log
+*.pdb
+*.idb
+*.psess
+*.vsp
+*.vspx
+*.ncb
+*.aps
+*.ilk
+*.cache
+*.dll
+*.exe
+*.lib
+*.pri
+
+# Ignore assets except source files
+Content/Assets/
+
+# Keep source code
+!Source/
+!Source/**
+
+# Ignore everything else in Content, except Source folder if it exists
+Content/*
+!Content/Source/
+
+# Ignore platform-specific files
+.DS_Store
+Thumbs.db
